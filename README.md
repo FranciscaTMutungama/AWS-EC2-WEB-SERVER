@@ -64,7 +64,7 @@ This project involves launching, configuring, and managing an Amazon EC2 instanc
 - Set up a simple web server, adjusted security settings, resized the instance, and tested termination protection.
 
 ### **Screenshots**
-(Screenshots of the key steps can be added here to visually represent the process.)
+()
 
 ### **Technologies Used**
 - **AWS Services**: EC2, Amazon Linux 2, EBS, VPC, CloudWatch
