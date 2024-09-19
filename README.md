@@ -12,27 +12,22 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
 
 1. **Launch Instance**:
    - Launched an EC2 instance in the AWS Management Console.
-   - **Screenshot**:
-     ![Launch Instance](screenshots/launch-instance.png)
 
 2. **Name and Tags**:
    - Named the instance "Web Server.
  - Selected the default Amazon Linux 2 AMI.
-   - **Screenshot**:
-     ![Select AMI](screenshots/ec2-web-server.png)
 
-4. **Choose Instance Type**:
+3. **Choose Instance Type**:
    - Chose `t3.micro` for a balance between performance and cost.
 
-5. **Configure Network Settings**:
+4. **Configure Network Settings**:
    - Selected "Lab VPC" and configured a security group named "Web Server security group."
-   - **Screenshot**:
-     ![Security Group](screenshots/security-group.png)
-
-6. **Storage and Advanced Settings**:
+     
+5. **Storage and Advanced Settings**:
    - Enabled termination protection and added a User Data script to install and start an Apache web server.
-   - **Screenshot**:
-     ![User Data Script](screenshots/user-data-script.png)
+
+   **Screenshot**
+     ![ec2-web-server](screenshots/ec2-webserver.png)
 
 ### **Task 2: Monitoring the EC2 Instance**
 
