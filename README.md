@@ -34,7 +34,7 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
 1. **Status Checks and Monitoring**:
    - Verified system and instance status checks using AWS CloudWatch.
    - **Screenshot**:
-     ![Monitoring Dashboard](screenshots/monitoring-dashboard.png)
+     ![cloudwt](cloudwt.png)
 
 ### **Task 3: Access the Web Server**
 
