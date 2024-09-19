@@ -20,7 +20,7 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
 3. **Choose Instance Type**:
    - Chose `t3.micro` for a balance between performance and cost.
    - 
-   - ![screenshots](screenshots/ec2-web-server.png)
+   - ![screenshots](screenshots/EC2-WEB-SERVER.png)
 
 4. **Configure Network Settings**:
    - Selected "Lab VPC" and configured a security group named "Web Server security group."
