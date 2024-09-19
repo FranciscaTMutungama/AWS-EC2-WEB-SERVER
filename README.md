@@ -1,4 +1,4 @@
-## Project: Launching and Managing an Amazon EC2 Instance
+# Launching and Managing an Amazon EC2 Instance
 
 This project demonstrates my ability to launch, configure, and manage an Amazon EC2 instance using various AWS services. I performed tasks such as setting up a web server, managing network configurations, resizing the instance, and testing termination protection.
 
@@ -27,7 +27,7 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
    - Enabled termination protection and added a User Data script to install and start an Apache web server.
 
    **Screenshot**
-     ![screenshots](ec2-webserver.png)
+     ![screenshots](screensots/ec2-web-server.png)
 
 ### **Task 2: Monitoring the EC2 Instance**
 
