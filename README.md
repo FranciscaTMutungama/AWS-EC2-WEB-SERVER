@@ -27,7 +27,7 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
    - Enabled termination protection and added a User Data script to install and start an Apache web server.
 
    **Screenshot**
-     ![ec2 web server](ec2-webserver.png)
+     ![screenshot](ec2-webserver.png)
 
 ### **Task 2: Monitoring the EC2 Instance**
 
@@ -75,19 +75,9 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
 - **Learning Experience**: Gained hands-on experience in cloud infrastructure management, automated server configuration, and best practices for security in AWS.
 - **Real-World Application**: These skills are essential for deploying scalable and secure applications in a cloud environment.
 
----
-
-### **Summary**
-
-This project illustrates the key skills required for cloud-based infrastructure management, including instance deployment, network configuration, security management, and system scaling. This hands-on experience reflects my capability to manage cloud resources efficiently, a crucial aspect for roles such as Solutions Architect or Cloud Engineer.
-
----
 
 ### **Technologies and Concepts Highlighted**
 
 - **AWS Services**: EC2, VPC, Amazon Linux 2, EBS, CloudWatch.
 - **Key Concepts**: Cloud computing, instance resizing, network security, web server configuration, automated provisioning (User Data), monitoring, and termination protection.
 
----
-
-By presenting the project this way, you provide a comprehensive narrative that demonstrates your technical skills and understanding of AWS services. Including screenshots with captions makes the project more engaging and shows evidence of your hands-on work.
