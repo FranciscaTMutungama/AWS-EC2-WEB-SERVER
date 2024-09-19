@@ -31,8 +31,7 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
 5. **Storage and Advanced Settings**:
    - Enabled termination protection and added a User Data script to install and start an Apache web server.
 
-   **Screenshot**
-     ![screenshots](screenshots/ec2-web-server.png)
+     ![screenshots](screenshots/user-data.png)
 
 ### **Task 2: Monitoring the EC2 Instance**
 
