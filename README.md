@@ -12,7 +12,7 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
 
 1. **Launch Instance**:
    - Launched an EC2 instance in the AWS Management Console.
-
+ ![screenshots](screenshots/instance-launched.png)
 2. **Name and Tags**:
    - Named the instance "Web Server.
  - Selected the default Amazon Linux 2 AMI.
@@ -38,6 +38,7 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
 1. **Status Checks and Monitoring**:
    - Verified system and instance status checks using AWS CloudWatch.
    - **Screenshot**:
+   - 
      ![screenshots](screenshots/cloudwt.png)
 
 ### **Task 3: Access the Web Server**
@@ -45,6 +46,7 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
 1. **Security Group Update**:
    - Updated the security group to allow HTTP traffic on port 80.
    - **Screenshot**:
+     
      ![screenshots](screenshots/security-group-rules.png)
 
 2. **Access the Web Server**:
@@ -57,7 +59,7 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
 1. **Stop the Instance and Change Instance Type**:
    - Changed the instance type from `t3.micro` to `t3.small`.
    - **Screenshot**:
-     ![Change Instance Type](screenshots/change-instance-type.png)
+     ![SCREENSHOTS](screenshots/rsizing-instance.png)
 
 2. **Resize EBS Volume**:
    - Increased the root volume from 8 GiB to 10 GiB.
