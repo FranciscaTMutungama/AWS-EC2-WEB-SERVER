@@ -27,7 +27,7 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
    - Enabled termination protection and added a User Data script to install and start an Apache web server.
 
    **Screenshot**
-     ![ec2-web-server](screenshots/ec2-webserver.png)
+     ![ec2-web-server](ec2-webserver.png)
 
 ### **Task 2: Monitoring the EC2 Instance**
 
