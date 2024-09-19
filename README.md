@@ -1,72 +1,98 @@
-### Project: Launching and Managing an Amazon EC2 Instance
+## Project: Launching and Managing an Amazon EC2 Instance
 
-This project involves launching, configuring, and managing an Amazon EC2 instance using various AWS services and features. Below is a summary of the steps taken:
+This project demonstrates my ability to launch, configure, and manage an Amazon EC2 instance using various AWS services. I performed tasks such as setting up a web server, managing network configurations, resizing the instance, and testing termination protection.
 
----
+### **Project Overview**
+- **Objective**: Launch a web server on AWS EC2, configure security settings, monitor the instance, and resize it to meet changing requirements.
+- **Skills Demonstrated**: Cloud computing, network security, automation (User Data scripts), monitoring, and instance management.
+- **Technologies Used**: AWS EC2, Amazon Linux 2, VPC, EBS, CloudWatch.
 
-#### **Task 1: Launching the EC2 Instance**
+
+### **Task 1: Launching the EC2 Instance**
+
 1. **Launch Instance**:
-   - In the EC2 Dashboard, selected "Launch Instance."
+   - Launched an EC2 instance in the AWS Management Console.
+   - **Screenshot**:
+     ![Launch Instance](screenshots/launch-instance.png)
+
 2. **Name and Tags**:
-   - Named the instance "Web Server."
-3. **Select AMI**:
-   - Chose the default Amazon Linux 2 AMI.
+   - Named the instance "Web Server.
+ - Selected the default Amazon Linux 2 AMI.
+   - **Screenshot**:
+     ![Select AMI](screenshots/ec2-web-server.png)
+
 4. **Choose Instance Type**:
-   - Selected `t3.micro` as the instance type.
-5. **Key Pair**:
-   - Chose to proceed without a key pair (as login was not required).
-6. **Configure Network Settings**:
-   - Edited network settings, selected "Lab VPC," and configured a security group named "Web Server security group."
-   - Removed SSH access for security.
-7. **Storage**:
-   - Kept the default storage configuration (8 GiB).
-8. **Advanced Settings**:
-   - Enabled termination protection.
-   - Added a User Data script to install and start an Apache web server.
-9. **Launch Instance**:
-   - Launched the instance and verified its status.
+   - Chose `t3.micro` for a balance between performance and cost.
 
-#### **Task 2: Monitor the EC2 Instance**
-1. **Status Checks**:
-   - Verified that both system and instance status checks passed.
-2. **Monitoring**:
-   - Reviewed basic CloudWatch metrics.
-   - Captured an instance screenshot for troubleshooting purposes.
+5. **Configure Network Settings**:
+   - Selected "Lab VPC" and configured a security group named "Web Server security group."
+   - **Screenshot**:
+     ![Security Group](screenshots/security-group.png)
 
-#### **Task 3: Access the Web Server**
+6. **Storage and Advanced Settings**:
+   - Enabled termination protection and added a User Data script to install and start an Apache web server.
+   - **Screenshot**:
+     ![User Data Script](screenshots/user-data-script.png)
+
+### **Task 2: Monitoring the EC2 Instance**
+
+1. **Status Checks and Monitoring**:
+   - Verified system and instance status checks using AWS CloudWatch.
+   - **Screenshot**:
+     ![Monitoring Dashboard](screenshots/monitoring-dashboard.png)
+
+### **Task 3: Access the Web Server**
+
 1. **Security Group Update**:
-   - Added an inbound rule to the security group to allow HTTP traffic on port 80.
-2. **Access Web Server**:
-   - Used the instance's public IPv4 address to access the web server and confirmed the display of the message "Hello From Your Web Server!"
+   - Updated the security group to allow HTTP traffic on port 80.
+   - **Screenshot**:
+     ![Updated Security Group](screenshots/updated-security-group.png)
 
-#### **Task 4: Resize the Instance**
-1. **Stop the Instance**:
-   - Stopped the instance to modify its settings.
-2. **Change Instance Type**:
+2. **Access the Web Server**:
+   - Accessed the web server using the public IP address, confirming the display of "Hello From Your Web Server!"
+   - **Screenshot**:
+     ![Web Server Access](screenshots/web-server-access.png)
+
+### **Task 4: Resizing the Instance**
+
+1. **Stop the Instance and Change Instance Type**:
    - Changed the instance type from `t3.micro` to `t3.small`.
-3. **Resize EBS Volume**:
-   - Modified the root EBS volume size from 8 GiB to 10 GiB.
-4. **Start the Instance**:
-   - Restarted the instance to apply the changes.
+   - **Screenshot**:
+     ![Change Instance Type](screenshots/change-instance-type.png)
 
-#### **Task 5: Test Termination Protection**
-1. **Attempt to Terminate**:
-   - Tried to terminate the instance but was prevented due to termination protection.
-2. **Disable Termination Protection**:
-   - Disabled termination protection in the instance settings.
-3. **Terminate the Instance**:
-   - Successfully terminated the instance after disabling termination protection.
+2. **Resize EBS Volume**:
+   - Increased the root volume from 8 GiB to 10 GiB.
+   - **Screenshot**:
+     ![Resize EBS Volume](screenshots/resize-ebs-volume.png)
+
+### **Task 5: Test Termination Protection**
+
+1. **Termination Protection Test**:
+   - Attempted to terminate the instance to test termination protection.
+   - **Screenshot**:
+     ![Termination Protection](screenshots/termination-protection.png)
 
 ---
 
-### **Outcome**
-- Successfully launched, configured, and managed an EC2 instance.
-- Set up a simple web server, adjusted security settings, resized the instance, and tested termination protection.
+### **Outcome and Reflection**
 
-### **Screenshots**
-()
+- **Outcome**: Successfully deployed and managed an EC2 instance, configured security groups, set up a web server, resized the instance, and utilized termination protection.
+- **Learning Experience**: Gained hands-on experience in cloud infrastructure management, automated server configuration, and best practices for security in AWS.
+- **Real-World Application**: These skills are essential for deploying scalable and secure applications in a cloud environment.
 
-### **Technologies Used**
-- **AWS Services**: EC2, Amazon Linux 2, EBS, VPC, CloudWatch
-- **Concepts**: Instance launch, storage, network configuration, security groups, resizing instances, termination protection, and monitoring.
+---
 
+### **Summary**
+
+This project illustrates the key skills required for cloud-based infrastructure management, including instance deployment, network configuration, security management, and system scaling. This hands-on experience reflects my capability to manage cloud resources efficiently, a crucial aspect for roles such as Solutions Architect or Cloud Engineer.
+
+---
+
+### **Technologies and Concepts Highlighted**
+
+- **AWS Services**: EC2, VPC, Amazon Linux 2, EBS, CloudWatch.
+- **Key Concepts**: Cloud computing, instance resizing, network security, web server configuration, automated provisioning (User Data), monitoring, and termination protection.
+
+---
+
+By presenting the project this way, you provide a comprehensive narrative that demonstrates your technical skills and understanding of AWS services. Including screenshots with captions makes the project more engaging and shows evidence of your hands-on work.
