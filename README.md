@@ -19,7 +19,7 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
 
 3. **Choose Instance Type**:
    - Chose `t3.micro` for a balance between performance and cost.
-  
+   - 
    - ![screenshots](screenshots/ec2-web-server.png)
 
 4. **Configure Network Settings**:
@@ -45,7 +45,7 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
 1. **Security Group Update**:
    - Updated the security group to allow HTTP traffic on port 80.
    - **Screenshot**:
-     ![Updated Security Group](screenshots/updated-security-group.png)
+     ![screenshots](screenshots/security-group-rules.png)
 
 2. **Access the Web Server**:
    - Accessed the web server using the public IP address, confirming the display of "Hello From Your Web Server!"
