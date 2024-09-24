@@ -52,14 +52,14 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
 2. **Access the Web Server**:
    - Accessed the web server using the public IP address, confirming the display of "Hello From Your Web Server!"
    - **Screenshot**:
-     ![Web Server Access](screenshots/web-server-accessible.png)
+     ![screenshots](screenshots/web-server-accessible.png)
 
 ### **Task 4: Resizing the Instance**
 
 1. **Stop the Instance and Change Instance Type**:
    - Changed the instance type from `t3.micro` to `t3.small`.
    - **Screenshot**:
-     ![SCREENSHOTS](screenshots/rsizing-instance.png)
+     ![screenshots](screenshots/rsizing-instance.png)
 
 2. **Resize EBS Volume**:
    - Increased the root volume from 8 GiB to 10 GiB.
