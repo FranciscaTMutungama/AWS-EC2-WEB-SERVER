@@ -59,7 +59,7 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
 1. **Stop the Instance and Change Instance Type**:
    - Changed the instance type from `t3.micro` to `t3.small`.
    - **Screenshot**:
-     ![screenshots](screenshots/rsizing-instance.png)
+     ![screenshots](screenshots/rsizinginstance.png)
 
 2. **Resize EBS Volume**:
    - Increased the root volume from 8 GiB to 10 GiB.
