@@ -63,17 +63,11 @@ This project demonstrates my ability to launch, configure, and manage an Amazon 
 
 2. **Resize EBS Volume**:
    - Increased the root volume from 8 GiB to 10 GiB.
-   - **Screenshot**:
-     ![Resize EBS Volume](screenshots/resize-ebs-volume.png)
-
+ 
 ### **Task 5: Test Termination Protection**
 
 1. **Termination Protection Test**:
    - Attempted to terminate the instance to test termination protection.
-   - **Screenshot**:
-     ![Termination Protection](screenshots/termination-protection.png)
-
----
 
 ### **Outcome and Reflection**
 
